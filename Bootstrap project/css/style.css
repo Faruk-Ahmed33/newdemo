@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-primary {
+    background-color: rgb(0, 255, 42) !important;
+}
+
+.active1 {
+    color: rgba(0, 0, 0) !important;
+}
+
+.container .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container .navbar-brand span {
+    color: orangered;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
+/* header end */
+
+/* slider start */
+#slider-img {
+    background-image: url(../image/4.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.slider-content {
+    padding-top: 60px;
+}
+
+.content h1 {
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+
+}
+
+.content p {
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.slider-btn button {
+    padding: 10px 20px;
+    color: white;
+    background: #28A745;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.slider-btn button:hover {
+    background: #f6b606;
+    color: #000000;
+    transition: .5s;
+}
+
+/* about section start  */
+.content-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.img1 {
+    height: 450px;
+}
+
+.about-desciption h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.about-desciption p {
+    padding-top: 5px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.skill-bar h1 {
+    color: rgb(255, 0, 43);
+    text-transform: uppercase;
+
+}
